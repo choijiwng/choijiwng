@@ -4,6 +4,8 @@
 
 ## Projects
 
+- [CTF-OS](https://github.com/whatevertakes/CTF-OS) · **진행 중** — 선택한 CTF 문제 풀이를 지원하는 Codex 기반 도구. whatevertakes 팀에서 계속 개발하고 있습니다.
+- [InodeFence](https://github.com/TheWaitForAGI/InodeFence) · **팀 프로젝트** — TAR 압축 해제 과정의 파일시스템 보안 상태를 관찰하고 검사하는 연구 프로토타입. 일회성 팀 프로젝트로 진행했습니다.
 - [BBS](https://github.com/choijiwng/BBS) — Node.js, Express, PostgreSQL로 만든 게시판 애플리케이션
 - [CIC IDS 2017 Traffic Analysis](https://github.com/choijiwng/cic-ids2017-visualization) — Python을 이용한 네트워크 트래픽 분석과 시각화
 
