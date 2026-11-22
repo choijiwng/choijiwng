@@ -30,7 +30,7 @@ Repository: [TheWaitForAGI/InodeFence](https://github.com/TheWaitForAGI/InodeFen
 
 ## Awards and Honors
 
-- **Finalist**, `2026 KISIA Information Security Contest (Finals)` as *WhateverTakes* (2026.08)
+- **Finalist**, `2026 KISIA Information Security Contest (Finals)` as *WhateverTakes* (2026.08), [certificate](https://github.com/choijiwng/choijiwng/blob/main/certificates/2026-kisia-finals-participation.pdf)
 - **Excellence Award**, `2025 Chungnam IT Hackathon (Beginner Division)` as *SS통합* (2025.09), [certificate](https://github.com/choijiwng/choijiwng/blob/main/certificates/2025-chungnam-it-hackathon-excellence-award.pdf)
 - **Completed**, `Web Vulnerability-Based Penetration Testing 2025`, Sangmyung University Cheonan Industry-Academic Cooperation Foundation (2025.09), [certificate](https://github.com/choijiwng/choijiwng/blob/main/certificates/2025-web-pentest-completion.pdf)
 - **Completed**, `Introduction to Information Security (Web, Reversing, Forensics, Pwnable) 2025`, Sangmyung University Cheonan Industry-Academic Cooperation Foundation (2025.09), [certificate](https://github.com/choijiwng/choijiwng/blob/main/certificates/2025-infosec-intro-completion.pdf)
