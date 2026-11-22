@@ -1,47 +1,47 @@
-**English** | [한국어](https://github.com/choijiwng/choijiwng/blob/main/README.ko.md)
+**한국어** | [English](https://github.com/choijiwng/choijiwng/blob/main/README.en.md)
 
-# Jiwoong Choi
+# 최지웅 (Jiwoong Choi)
 
-Undergraduate in Information Security Engineering at Sangmyung University, preparing for offensive security work in 2027.
+상명대학교 정보보안공학과 학부생이며, 2027년 오펜시브 보안 분야 취업을 준비하고 있습니다.
 
 ## Interests
 
-- Vulnerability research and system security
-- Penetration testing and red teaming
-- Binary exploitation (pwnable) and CTF
-- Security of AI agents and AI-assisted security tooling
+- 취약점 연구, 시스템 보안
+- 모의해킹, 레드팀
+- 바이너리 익스플로잇(pwnable), CTF
+- AI 에이전트 보안, AI 기반 보안 도구
 
 ## Affiliation
 
-- **Sangmyung University**, Department of Information Security Engineering, 2022.03 – present
-- **WhateverTakes**, CTF team
+- **상명대학교** 정보보안공학과, 2022.03 – 현재
+- **WhateverTakes**, CTF 팀
 
 ## Research
 
-### InodeFence, 2026.10 – present
+### InodeFence, 2026.10 – 현재
 
-Research prototype that observes filesystem state before and after TAR extraction to check for security-boundary violations, such as an extracted file sharing an inode with a file outside the extraction directory. Team project.
+TAR 압축 해제 전후의 파일시스템 상태를 관찰해, 추출된 파일이 추출 디렉터리 밖의 파일과 inode를 공유하는 것과 같은 보안 경계 위반을 검사하는 연구 프로토타입입니다. 팀 프로젝트입니다.
 
-- Reproduced the node-tar hardlink escape for two known CVEs, CVE-2026-23745 and CVE-2026-24842, in a controlled environment. A single outcome-based oracle (inode sharing with an external file) distinguishes affected from fixed releases for both. These are reproductions of known issues, not discoveries of mine, and I do not claim any new vulnerability.
-- Commits in the team repository, implemented with Claude (AI assistant), include the reproduction script and raw-evidence records, a comparison of Python `tarfile` extraction policies (`fully_trusted` vs `data`) using the same oracle, a symlink-target confinement check, and a terminal summary for demo runs.
-- Limits: results come from controlled fixtures in a disposable Linux environment. The fuzzer's effectiveness over random or baseline strategies is not established.
+- 알려진 CVE 두 건, CVE-2026-23745와 CVE-2026-24842의 node-tar 하드링크 탈출을 통제된 환경에서 재현했습니다. 결과 기반 oracle(외부 파일과의 inode 공유) 하나로 두 건 모두 영향 릴리스와 수정 릴리스를 구분합니다. 이는 알려진 취약점의 재현이며 제가 발견한 것이 아니고, 새로운 취약점을 발견했다고 주장하지 않습니다.
+- 팀 저장소의 제 커밋(Claude AI 도구로 구현)에는 재현 스크립트와 raw 증거 기록, 같은 oracle로 Python `tarfile`의 추출 정책(`fully_trusted`와 `data`)을 비교한 테스트, symlink 대상 경로 범위 판정, 데모 실행용 터미널 요약이 포함됩니다.
+- 한계: 결과는 일회용 Linux 환경의 통제된 fixture에서 얻은 것입니다. 무작위 또는 기준 전략 대비 퍼저의 효과는 입증되지 않았습니다.
 
-Repository: [TheWaitForAGI/InodeFence](https://github.com/TheWaitForAGI/InodeFence)
+저장소: [TheWaitForAGI/InodeFence](https://github.com/TheWaitForAGI/InodeFence)
 
 ## Awards and Honors
 
-- **Finalist**, `2026 KISIA Information Security Contest (Finals)` as *WhateverTakes* (2026.08), [certificate](https://github.com/choijiwng/choijiwng/blob/main/certificates/2026-kisia-finals-participation.pdf)
-- **Excellence Award**, `2025 Chungnam IT Hackathon (Beginner Division)` as *SS통합* (2025.09), [certificate](https://github.com/choijiwng/choijiwng/blob/main/certificates/2025-chungnam-it-hackathon-excellence-award.pdf)
-- **Completed**, `Web Vulnerability-Based Penetration Testing 2025`, Sangmyung University Cheonan Industry-Academic Cooperation Foundation (2025.09), [certificate](https://github.com/choijiwng/choijiwng/blob/main/certificates/2025-web-pentest-completion.pdf)
-- **Completed**, `Introduction to Information Security (Web, Reversing, Forensics, Pwnable) 2025`, Sangmyung University Cheonan Industry-Academic Cooperation Foundation (2025.09), [certificate](https://github.com/choijiwng/choijiwng/blob/main/certificates/2025-infosec-intro-completion.pdf)
+- **본선 진출**, `2026 KISIA 정보보호 경진대회(본선)` as *WhateverTakes* (2026.08), [증명서](https://github.com/choijiwng/choijiwng/blob/main/certificates/2026-kisia-finals-participation.pdf)
+- **우수상**, `2025 충남 IT Hackathon (초급 부문)` as *SS통합* (2025.09), [증명서](https://github.com/choijiwng/choijiwng/blob/main/certificates/2025-chungnam-it-hackathon-excellence-award.pdf)
+- **수료**, `웹 취약점 기반 침투테스트 2025`, 상명대학교 천안산학협력단 (2025.09), [증명서](https://github.com/choijiwng/choijiwng/blob/main/certificates/2025-web-pentest-completion.pdf)
+- **수료**, `정보보안 입문(웹·리버싱·포렌식·포너블) 2025`, 상명대학교 천안산학협력단 (2025.09), [증명서](https://github.com/choijiwng/choijiwng/blob/main/certificates/2025-infosec-intro-completion.pdf)
 
 ## Projects & Write-ups
 
-- [InodeFence](https://github.com/TheWaitForAGI/InodeFence) (2026.10 – present): TAR extraction boundary-violation research prototype, described above.
-- [CTF-OS](https://github.com/whatevertakes/CTF-OS) (2026.06 – 2026.08): Codex-based engine that works on one human-selected CTF challenge at a time inside a challenge-scoped Docker sandbox. Challenge selection and flag submission are done by a human. Main developer and team lead of WhateverTakes.
-- [BBS](https://github.com/choijiwng/BBS) (2026.05 – 2026.06): bulletin board in Node.js, Express and PostgreSQL, with bcrypt password hashing, CSRF protection, Helmet and rate limiting.
-- [cic-ids2017-visualization](https://github.com/choijiwng/cic-ids2017-visualization) (2026.04 – 2026.05): analysis and visualization of attack and benign traffic distributions in the CIC IDS 2017 dataset, in Python.
-- [pwnable](https://github.com/choijiwng/pwnable) (2025.12 – 2026.02): study notes and exploit write-ups on buffer overflow, return-to-shellcode, return-to-libc, ROP, use-after-free and tcache poisoning.
+- [InodeFence](https://github.com/TheWaitForAGI/InodeFence) (2026.10 – 현재): TAR 추출 경계 위반 연구 프로토타입, 위에 설명.
+- [CTF-OS](https://github.com/whatevertakes/CTF-OS) (2026.06 – 2026.08): Codex 기반 엔진으로, 사람이 고른 CTF 문제 하나를 문제 단위로 격리된 Docker 샌드박스에서 풉니다. 문제 선택과 플래그 제출은 사람이 합니다. WhateverTakes 팀의 메인 개발자이자 팀장입니다.
+- [BBS](https://github.com/choijiwng/BBS) (2026.05 – 2026.06): Node.js, Express, PostgreSQL 기반 게시판으로, bcrypt 비밀번호 해싱, CSRF 방어, Helmet, rate limiting을 적용했습니다.
+- [cic-ids2017-visualization](https://github.com/choijiwng/cic-ids2017-visualization) (2026.04 – 2026.05): CIC IDS 2017 데이터셋의 정상·공격 트래픽 분포를 Python으로 분석하고 시각화했습니다.
+- [pwnable](https://github.com/choijiwng/pwnable) (2025.12 – 2026.02): 버퍼 오버플로, return-to-shellcode, return-to-libc, ROP, use-after-free, tcache poisoning 학습 노트와 익스플로잇 풀이.
 
 ## Contact
 
