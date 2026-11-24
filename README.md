@@ -32,8 +32,6 @@ TAR 압축 해제 전후의 파일시스템 상태를 관찰해, 추출된 파�
 
 - **본선 진출**, `2026 KISIA 정보보호 경진대회(본선)` as *WhateverTakes* (2026.08), [증명서](https://github.com/choijiwng/choijiwng/blob/main/certificates/2026-kisia-finals-participation.pdf)
 - **우수상**, `2025 충남 IT Hackathon (초급 부문)` as *SS통합* (2025.09), [증명서](https://github.com/choijiwng/choijiwng/blob/main/certificates/2025-chungnam-it-hackathon-excellence-award.pdf)
-- **수료**, `웹 취약점 기반 침투테스트 2025`, 상명대학교 천안산학협력단 (2025.09), [증명서](https://github.com/choijiwng/choijiwng/blob/main/certificates/2025-web-pentest-completion.pdf)
-- **수료**, `정보보안 입문(웹·리버싱·포렌식·포너블) 2025`, 상명대학교 천안산학협력단 (2025.09), [증명서](https://github.com/choijiwng/choijiwng/blob/main/certificates/2025-infosec-intro-completion.pdf)
 
 ## Projects & Write-ups
 
